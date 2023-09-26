@@ -2,6 +2,18 @@ import React, { useState } from "react";
 import getRandomIndex from "./random";
 import "./Eightball.css";
 
+/** Answers questions with random advice like 8-ball game.
+ *
+ * Props:
+ *  -answers (array)
+ *
+ * State:
+ *  -msg: string
+ *  -color: string
+ *
+ * App -> Eightball
+ */
+
 function Eightball({ answers }) {
   const [msg, setMsg] = useState();
   const [color, setColor] = useState();

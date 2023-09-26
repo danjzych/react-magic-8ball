@@ -24,6 +24,16 @@ const ANSWERS = [
   { msg: "Very doubtful.", color: "red" },
 ];
 
+/**Renders the App component
+ *
+ * Props:
+ *  -None
+ *
+ * State:
+ *  -None
+ *
+ * App -> Eightball
+ */
 function App() {
   return <Eightball answers={ANSWERS} />;
 }
